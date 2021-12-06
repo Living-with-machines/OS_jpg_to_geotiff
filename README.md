@@ -22,3 +22,5 @@ Click on four corners of map area in NW, NE, SE, SW order.
 Remember when moving focus to the image popup click on the top of the popup where it says 'tk' otherwise you will use up once of your clicks in moving the focus.
 
 You will find your Geotiffs in `./OS_geotiffs`.
+
+Thanks to the Charles Close Society (https://charlesclosesociety.org/digital) for making the OS metadata  (https://github.com/thegsi/OS_jpg_to_geotiff/blob/main/One_Inch_Old_Series_England_Wales.geojson) available.
