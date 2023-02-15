@@ -1,6 +1,13 @@
 # OS_jpg_to_geotiff
 
-Geolocate OS 1 Inch Old Series England Wales maps found here https://commons.wikimedia.org/wiki/Category:Ordnance_Survey_Old/First_series_England_and_Wales_1:63360_
+Original code by Gethin: https://github.com/thegsi/OS_jpg_to_geotiff Work in progress with OS 25' 1st edition + NLS metadata. Files needed to run the code:
+
+- 25_inch_GB_geojson.json
+- images
+
+---
+
+Geolocate OS 1 Inch Old Series England Wales maps found here https://commons.wikimedia.org/wiki/Category:Ordnance_Survey_Old/First_series_England_and_Wales_1:63360_(full_sheets)
 
 ### Install dependencies  
 PIL `pip install pillow`.
@@ -9,7 +16,7 @@ gdainfo --version.
 `pip install gdal==2.4`.
 
 ### Jpg files prep
-Add jpg files to a new folder called `./OS_jpgs`. Jpgs are found here https://commons.wikimedia.org/wiki/Category:Ordnance_Survey_Old/First_series_England_and_Wales_1:63360_
+Add jpg files to a new folder called `./OS_jpgs`. Jpgs are found here https://commons.wikimedia.org/wiki/Category:Ordnance_Survey_Old/First_series_England_and_Wales_1:63360_(full_sheets)
 
 Ensure the files are named with the map sheet number at the end and in the following format `OS_old_series_1_63360_8.jpg`. See One_Inch_Old_Series_England_Wales.geojson `properties['Name']` value.
 
